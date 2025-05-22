@@ -49,16 +49,18 @@ dependencies {
 
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    // Gson Converter
     implementation("com.squareup.retrofit2:converter-gson")
+    // Kotlin Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
     val lifecycle_version = "2.9.0"
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
-
+    // KAPT for LiveData
     kapt("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
-
+    // OkHttp
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
 
